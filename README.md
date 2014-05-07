@@ -1,10 +1,9 @@
 EventBrite-Sniper
 =================
 
-Buys BlizzCon Tickets
-
+Adds 2 tickets to blizzcon and proceeds to order.
 
 **To run:**
 
-1. './init.sh'
-2. 'rspec main.rb'
+1. `./init.sh`
+2. `rspec main.rb`
