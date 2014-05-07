@@ -3,7 +3,11 @@ EventBrite-Sniper
 
 Adds 2 tickets to blizzcon and proceeds to order.
 
-**To run:**
+**Install Dependencies**
+* `./init.sh`
 
-1. `./init.sh`
-2. `rspec main.rb`
+**To run:**
+* `rspec watch.rb`
+
+**To test:**
+* `rspec spec.rb`
