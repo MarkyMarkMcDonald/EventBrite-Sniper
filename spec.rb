@@ -20,7 +20,4 @@ describe "#try_to_buy" do
       end
     end
   end
-
-
 end
-

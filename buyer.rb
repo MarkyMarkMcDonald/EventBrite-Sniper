@@ -11,7 +11,6 @@ class Buyer
       if available?
         try_to_buy
         puts "I did my best, hope you got it!"
-        gets
         binding.pry
       end
     end
@@ -32,5 +31,4 @@ class Buyer
       @page.select '1'
     end
   end
-
 end
