@@ -1,3 +1,5 @@
+require 'pry'
+
 class Buyer
   def initialize(page)
     @page = page
@@ -10,6 +12,7 @@ class Buyer
         try_to_buy
         puts "I did my best, hope you got it!"
         gets
+        binding.pry
       end
     end
   end
@@ -26,7 +29,7 @@ class Buyer
 
   def choose_tickets
     @page.within('#TicketReg .ticket_row', match: :first) do
-      @page.select '2'
+      @page.select '1'
     end
   end
 
